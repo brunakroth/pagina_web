@@ -1,0 +1,108 @@
+body {
+    background-image: url(imagem_web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1380px 676px;
+    min-width: 1341px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio > p {
+    font-size: 130px;
+    margin: 60px 130px;
+}
+
+#seg_p {
+    color: white;
+    margin: -95px 135px;
+}
+
+#texto {
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+#titulo {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#email {
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    margin: 0px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.flex {
+    border-radius: 20px;
+    background-color: rgba(22, 21, 20, 0.062);
+    /* auto se adapta conforme o conteudo dentro do div */
+    margin: 120px 0px auto;
+    text-align: center;
+    padding: 20px 0px;
+    display: flex;
+    /* para definir o sentido dos itens:*/
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 1350px;
+    height: 180px;
+}
+
+.flex-container > p {
+    text-align: center;
+    margin: 0;
+    line-height: 30px;
+    width: 200px;
+
+}
+
+.flex-container {
+    border-radius: 20px;
+    /* auto se adapta conforme o conteudo dentro do div */
+    margin: auto 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    /* para definir o sentido dos itens:*/
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(209, 101, 12, 0.336);
+    width: auto;
+    height: 90%;
+}
+
+
+@media (max-width: 700px) {
+    
+    body {
+        background-image: url(imagem_web.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 690px 800px;
+        min-width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+    .inicio > p {
+        font-size: 70px;
+        margin: 100px 70px;
+    }
+
+    #seg_p {
+        color: white;
+        margin: -110px 75px;
+    }
+
+    .flex {
+    width: 670px;
+    height: 190px;
+    margin: 200px 0px auto;
+    }
+}
